@@ -1,0 +1,17 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light">
+		<item name="colorPrimary">@color/primary</item>
+		<item name="colorPrimaryDark">@color/primary_dark</item>
+
+		<item name="actionMenuTextColor">@color/toolbar_text_color</item>
+	</style>
+
+	<color name="overflow">#ffffff</color>
+	<color name="primary">#5A00C8</color>
+	<color name="primary_dark">#400090</color>
+	<color name="toolbar_text_color">#ffffff</color>
+	<color name="linen">#FAF0E6</color>
+	<color name="seashell">#FFF5EE</color>
+</resources>

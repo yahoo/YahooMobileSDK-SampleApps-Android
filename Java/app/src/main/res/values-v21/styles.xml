@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light">
+		<item name="android:colorPrimary">@color/primary</item>
+		<item name="android:colorPrimaryDark">@color/primary_dark</item>
+		<item name="android:textColorSecondary">@color/overflow</item>
+	</style>
+
+	<color name="overflow">#ffffff</color>
+	<color name="primary">#5A00C8</color>
+	<color name="primary_dark">#400090</color>
+</resources>

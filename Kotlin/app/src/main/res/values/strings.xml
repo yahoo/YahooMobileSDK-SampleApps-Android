@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Yahoo Mobile SDK Sample App Kotlin</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="load">Load</string>
+	<string name="load_successful">Load successful</string>
+	<string name="load_failed">Load failed!</string>
+	<string name="refresh">Refresh</string>
+	<string name="request_bid">Request Bid</string>
+	<string name="request_ad">Request Ad</string>
+	<string name="bid_request_failed">Bid request failed!</string>
+	<string name="bid_request_successful">Bid request succeeded</string>
+	<string name="show">Show</string>
+
+	<string name="title_inline">Inline</string>
+	<string name="title_interstitial">Interstitial</string>
+	<string name="title_native">Native</string>
+
+	<string name="title_activity_native">Native</string>
+	<string name="title_activity_native_xml">Native XML</string>
+	<string name="title_activity_inline_banner">Inline Banner</string>
+	<string name="title_activity_inline_rectangle">Inline Rectangle</string>
+	<string name="title_activity_interstitial">Interstitial</string>
+	<string name="display_bid">Display Bid</string>
+	<string name="no_bid_error">Request bid prior to displaying!</string>
+	<string name="load_bid">Load Bid</string>
+	<string name="show_bid">Show Bid</string>
+
+	<string-array name="ad_formats">
+		<item>Inline Banner</item>
+		<item>Inline Rectangle</item>
+		<item>Interstitial</item>
+		<item>Native</item>
+	</string-array>
+</resources>

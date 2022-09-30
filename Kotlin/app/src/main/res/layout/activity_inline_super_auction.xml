@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/linen"
+	tools:context=".InlineBannerActivity">
+
+	<Button
+		android:id="@+id/request_bid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="@string/request_bid"/>
+
+	<!-- YAS will fill this container with an ad -->
+	<RelativeLayout
+		android:id="@+id/ad_container"
+		android:layout_width="320dp"
+		android:layout_height="50dp"
+		android:layout_above="@id/request_bid"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/darker_gray"
+		android:padding="@dimen/native_ad_shadow"/>
+
+	<Button
+		android:id="@+id/display_bid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/request_bid"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:enabled="false"
+		android:text="@string/display_bid"/>
+</RelativeLayout>

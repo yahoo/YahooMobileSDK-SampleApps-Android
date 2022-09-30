@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_activity_settings">Settings</string>
+	<string name="interstitial_ad_header">Interstitials</string>
+	<string name="immersive_mode_key">immersive_mode</string>
+	<string name="immersive_mode">Immersive Mode</string>
+</resources>

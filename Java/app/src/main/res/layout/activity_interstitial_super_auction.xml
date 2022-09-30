@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/linen"
+	tools:context="com.yahoo.mobile.ads.sampleapp.InterstitialActivity">
+
+
+	<Button
+		android:id="@+id/request_bid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/load_bid"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="20dp"
+		android:text="@string/request_bid"/>
+
+	<Button
+		android:id="@+id/load_bid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:enabled="false"
+		android:text="@string/load_bid"/>
+
+	<Button
+		android:id="@+id/show_bid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/load_bid"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:enabled="false"
+		android:text="@string/show_bid"/>
+</RelativeLayout>

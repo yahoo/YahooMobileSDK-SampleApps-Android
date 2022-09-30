@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="native_header_container" type="id"/>
+	<item name="native_icon" type="id"/>
+	<item name="native_title" type="id"/>
+	<item name="native_main_image" type="id"/>
+	<item name="native_media" type="id"/>
+	<item name="native_body_text" type="id"/>
+	<item name="native_disclaimer_text" type="id"/>
+	<item name="native_cta" type="id"/>
+	<item name="native_footer_container" type="id"/>
+</resources>

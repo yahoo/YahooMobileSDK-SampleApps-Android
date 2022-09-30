@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/linen"
+	tools:context="com.yahoo.mobile.ads.sampleapp.InterstitialActivity">
+
+	<Button
+		android:id="@+id/load"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="@string/load"/>
+
+	<Button
+		android:id="@+id/show"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/load"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:enabled="false"
+		android:text="@string/show"/>
+</RelativeLayout>

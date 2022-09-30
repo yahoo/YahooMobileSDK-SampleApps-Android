@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+apply plugin: 'base'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.yahoo.mobile.ads.sampleapp"
+        minSdkVersion 16
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+        debug {
+            // Enabling minify on debug to provide a sample proguard config that you will need if minifying your app
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation "com.yahoo.mobile.ads:android-yahoo-mobile-sdk:1.2.0"
+    implementation "com.google.android.gms:play-services-ads-identifier:18.0.1"
+    implementation "androidx.browser:browser:1.4.0"
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+}
+
+repositories {
+    maven {
+        url 'https://artifactory.yahooinc.com/artifactory/maven/'
+    }
+}
+

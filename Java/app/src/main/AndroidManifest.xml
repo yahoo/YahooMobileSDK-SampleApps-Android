@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.yahoo.mobile.ads.sampleapp"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+	<application
+		android:name=".SampleAppApplication"
+		android:allowBackup="true"
+		android:icon="@mipmap/yahoo_expo"
+		android:roundIcon="@mipmap/yahoo_expo_round"
+		android:usesCleartextTraffic="false"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".MainActivity"
+			android:label="@string/app_name"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".SettingsActivity"
+			android:label="@string/title_activity_settings"
+			android:parentActivityName=".MainActivity" />
+		<activity
+			android:name=".InlineBannerActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:label="@string/title_activity_inline_banner"
+			android:parentActivityName=".MainActivity" />
+		<activity
+			android:name=".InlineRectangleActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:label="@string/title_activity_inline_rectangle"
+			android:parentActivityName=".MainActivity" />
+		<activity
+			android:name=".NativeActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:label="@string/title_activity_native"
+			android:parentActivityName=".MainActivity" />
+		<activity
+			android:name=".InterstitialActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:label="@string/title_activity_interstitial"
+			android:parentActivityName=".MainActivity" />
+	</application>
+
+</manifest>

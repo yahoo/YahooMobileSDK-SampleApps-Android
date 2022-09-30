@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+
+
+	<dimen name="disclaimer_text_size">16sp</dimen>
+	<dimen name="title_text_size">40sp</dimen>
+	<dimen name="body_text_size">28sp</dimen>
+	<dimen name="cta_text_size">28sp</dimen>
+
+	<dimen name="native_title_top_margin">10dp</dimen>
+	<dimen name="native_title_left_margin">10dp</dimen>
+	<dimen name="native_section_top_margin">20dp</dimen>
+	<dimen name="native_footer_top_padding">10dp</dimen>
+	<dimen name="native_ad_padding">10dp</dimen>
+	<dimen name="native_ad_elevation">4dp</dimen>
+	<dimen name="native_ad_shadow">2dp</dimen>
+	<dimen name="native_ad_top_margin">20dp</dimen>
+
+	<dimen name="native_ad_width">600dp</dimen>
+	<dimen name="native_main_image_width">600dp</dimen>
+	<dimen name="native_main_image_height">320dp</dimen>
+	<dimen name="native_icon_size">100dp</dimen>
+</resources>
